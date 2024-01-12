@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+</head>
+<body>
+<button hx-get="/item" hx-target="#items-list" hx-swap="beforeend">
+    Add Item
+</button>
+<h2>Items:</h2>
+<ul id="items-list"></ul>
+</body>
+</html>
